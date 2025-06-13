@@ -8,8 +8,10 @@
     "dev": "nodemon --exec ts-node-esm index.ts"
   },
   "dependencies": {
+    "@prisma/client": "^6.9.0",
     "dotenv": "^16.5.0",
     "express": "^5.1.0",
+    "prisma": "^6.9.0",
     "ts-node": "^10.9.2",
     "typescript": "^5.8.3"
   },
@@ -18,4 +20,3 @@
     "nodemon": "^3.1.10"
   }
 }
-
