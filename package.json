@@ -7,6 +7,9 @@
   "scripts": {
     "dev": "nodemon --exec ts-node-esm index.ts"
   },
+  "prisma": {
+    "seed": "node --loader ts-node/esm prisma/seed.ts"
+  },
   "dependencies": {
     "@prisma/client": "^6.9.0",
     "dotenv": "^16.5.0",
